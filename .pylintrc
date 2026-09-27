@@ -1,0 +1,15 @@
+[MESSAGES CONTROL]
+disable=missing-module-docstring,too-few-public-methods
+
+[FORMAT]
+max-line-length=120
+
+[BASIC]
+good-names=i,j,k,ex,Run,_,id,obj
+
+[DESIGN]
+max-args=6
+max-locals=15
+
+[MISCELLANEOUS]
+notes=FIXME,TODO,XXX

@@ -1,0 +1,13 @@
+{
+  "pylint.args": [
+    "--rcfile=.pylintrc",
+    "--disable=C0114,C0115,C0116"
+  ],
+  "sonarlint.rules": {
+    "python:S1481": { "level": "warning" },
+    "python:S1854": { "level": "error" },
+    "python:S3776": { "level": "warning" },
+    "python:S112":  { "level": "error" },
+    "python:S117":  { "level": "info" }
+  }
+}
